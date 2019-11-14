@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Steps to Run
+1. Clone the Repo
+2. make sure you have npm and node installed in your machine
+3. open code source in VSCode
+4. run $npm install command to install the dependencies
+5. run $npm start
+6. Browser will open with the UI
+
 ## Available Scripts
 
 In the project directory, you can run:
