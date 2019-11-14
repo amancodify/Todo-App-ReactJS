@@ -1,0 +1,50 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.deldel {
+   cursor: pointer;
+}
+
+.edit{
+  cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.notcompleted{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#item-list:hover{
+  background-color: #e6e1e1;
+  color: rgb(0, 0, 0);
+}
+#item-list{
+  transition: all 0.9s;
+}
+
+li.checked {
+  text-decoration: line-through;
+}
+
+.title{
+  color: rgb(71, 71, 71);
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
